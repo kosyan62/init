@@ -1,9 +1,9 @@
 echo "Имя удаляемого пользователя?"
 read name
 
-exist=`cat /etc/passwd | grep $username`
+exist=`cat /etc/passwd | grep $name`
 if [ "$exist" != "$NULL" ]; then
-	sudo passwd -l $username
+	sudo passwd -l $name
 	if [ "$(pgrep -u $name)" != "$NULL" ]; then
 		sudo kill -9 $(pgrep -u $name)
 	fi

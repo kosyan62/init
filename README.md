@@ -11,11 +11,11 @@ The project is designed to build essential system administration skills, includi
 
 - **Type:** System & Network Administration
 - **Platform:** macOS (network tasks) and Debian (system & scripting tasks)
-- **Focus Areas:** 
+- **Focus:** 
   - Network tools and diagnostics
   - System operations and services
   - Shell scripting for automation
-- []
+- [Original task](init.en.pdf)
 
 ## Project Structure
 
